@@ -3,7 +3,7 @@
     "name": "My First React PWA",
     "icons": [
       {
-        "src": "logo.png",
+        "src": "assets/logo/logo.png",
         "sizes": "512x512",
         "type": "image/png"
       }

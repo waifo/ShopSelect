@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/app/images/2cab341d99797d3ecb77ea9ae585162c-men.jpg","2cab341d99797d3ecb77ea9ae585162c"],["/app/images/638505da477d23226ed4e114ce6be518-background.jpg","638505da477d23226ed4e114ce6be518"],["/app/images/fc1b497c20b38f59db3f515b6f065ba1-women.jpg","fc1b497c20b38f59db3f515b6f065ba1"],["D:/COE/ShopSelect/dist/index.html","b16098ba5a2515f53211a4fbfdae7bfb"]];
+var precacheConfig = [["/app/images/638505da477d23226ed4e114ce6be518-background.jpg","638505da477d23226ed4e114ce6be518"],["/app/images/7540c642a62be6b92fda45281b086a4b-women.jpg","7540c642a62be6b92fda45281b086a4b"],["/app/images/aff91534e441785f6de1290fafa8aadd-men.jpg","aff91534e441785f6de1290fafa8aadd"],["D:/COE/ShopSelect/dist/index.html","b16098ba5a2515f53211a4fbfdae7bfb"]];
 var cacheName = 'sw-precache-v3-my-project-name-' + (self.registration ? self.registration.scope : '');
 
 

@@ -1,0 +1,15 @@
+{
+  "assets\\images\\1.jpeg": "assets/images/c1a4c5631190ac3c95c6db9cd27a12a0-1.jpeg",
+  "assets\\images\\2.jpeg": "assets/images/103516fa4f7940e7944f128b14153654-2.jpeg",
+  "assets\\images\\3.jpeg": "assets/images/bec233f10dc681d9ba3ce872f1dc3f31-3.jpeg",
+  "assets\\images\\4.jpeg": "assets/images/411e281caab3e35669870f359e3012e0-4.jpeg",
+  "assets\\images\\5.jpeg": "assets/images/6ed94c51cabb026b26dfc0adb0ed7a2f-5.jpeg",
+  "assets\\images\\6.jpeg": "assets/images/832bfeee8e6c32e481f2307d774680b7-6.jpeg",
+  "assets\\images\\background.jpg": "assets/images/638505da477d23226ed4e114ce6be518-background.jpg",
+  "assets\\images\\men.jpg": "assets/images/aff91534e441785f6de1290fafa8aadd-men.jpg",
+  "assets\\images\\women.jpg": "assets/images/7540c642a62be6b92fda45281b086a4b-women.jpg",
+  "main.css": "assets/css/main.css",
+  "main.css.map": "assets/css/main.css.map",
+  "main.js": "./assets/bundle/bundle.js",
+  "main.js.map": "./assets/bundle/bundle.js.map"
+}

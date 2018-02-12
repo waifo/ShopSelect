@@ -1,3 +1,39 @@
-#home-container-div{
-    padding-top:15%;
+#home-container-div #home-category-div{
+    display:flex;
+    justify-content: center;
+    background-color: #03311e;
+    padding:1%
+}
+.carousel .slide img{
+    height:250px;
+}
+.carousel{
+    text-align: center;
+}
+#home-searchbar-div{
+    display:flex;
+}
+#site-title{
+    display:inline-block;
+    padding:2%;
+}
+#site-title h2{
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+    border-top:none;
+    color:#ded2d2;
+}
+#header-user{
+    display:flex;
+    padding:2%;
+}
+#header-user #notification-div{
+    margin-right:10%;
+}
+#header-user #cart-div{
+    margin-right:10%;
+}
+#header-user #user-div{
+    margin-right:10%;
 }

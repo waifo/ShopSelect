@@ -1,0 +1,18 @@
+
+.slick-carousel-image{
+    margin:10px;
+    border:1px solid #041d02;
+}
+.slick-carousel-image img{
+    max-width:100%;
+}
+
+.slick-list{
+    background-color: #03311e
+}
+#slick-carousel-div h3{
+    color:#ded2d2;
+    background-color: #03311e;
+    margin-bottom: 0px;
+    padding: 1% 2%;
+}
