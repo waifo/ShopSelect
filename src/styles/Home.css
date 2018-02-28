@@ -1,7 +1,7 @@
 #home-container-div #home-category-div{
     display:flex;
     justify-content: center;
-    background-color: #03311e;
+    background-color: #F1F1F1;
     padding:1%
 }
 .carousel .slide img{
@@ -22,7 +22,7 @@
     margin:0px;
     padding:0px;
     border-top:none;
-    color:#ded2d2;
+    color:#635757;
 }
 #header-user{
     display:flex;

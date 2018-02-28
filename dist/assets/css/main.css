@@ -1,5 +1,5 @@
 .card-section{
-    border:1px solid #041d02;
+    border:1px solid #F1F1F1;
     max-width:100%;
     height:200px;
 }
@@ -8,7 +8,20 @@
     width: 100%;
     height: 197px;
 }.categories-box{
-    
+    background-color: #F1F1F1;
+}
+
+.category-item{
+    padding:2%;
+    overflow:overlay;
+}
+
+.categories-box .card-section{
+    margin:10%;
+}
+.category-item h4{
+    text-align: center;
+    color:#635757;
 }/********************************************
 	BREAKPOINT WIDTHS
 ********************************************/
@@ -332,20 +345,48 @@ h5 {
 
 .slick-carousel-image{
     margin:10px;
-    border:1px solid #041d02;
+    border:1px solid #F1F1F1;
 }
 .slick-carousel-image img{
     max-width:100%;
 }
 
 .slick-list{
-    background-color: #03311e
+    background-color: #F1F1F1
 }
 #slick-carousel-div h3{
-    color:#ded2d2;
-    background-color: #03311e;
+    color:#635757;
+    background-color: #F1F1F1;
     margin-bottom: 0px;
     padding: 1% 2%;
+}
+.slick-slider img {
+    width: 315px;
+    height: 240px;
+}#footer-upper, #footer-lower{
+    padding: 2%;
+    color: #635757;
+    font-size:13px;
+}
+#footer-shop-select-div {
+    /* text-align: center; */
+    padding-left: 15%;
+}
+
+#footer-misc-div {
+    text-align: right;
+}
+#footer-track-div img{
+    margin-right:2%;
+}
+#stay-connected-div{
+    text-align: right;
+}
+#stay-connected-div img{
+    width:50px;
+    height:50px;
+    margin:1%;
+    
 }#home-container-div #home-category-div{
     display:-webkit-box;
     display:-ms-flexbox;
@@ -353,7 +394,7 @@ h5 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #03311e;
+    background-color: #F1F1F1;
     padding:1%
 }
 .carousel .slide img{
@@ -376,7 +417,7 @@ h5 {
     margin:0px;
     padding:0px;
     border-top:none;
-    color:#ded2d2;
+    color:#635757;
 }
 #header-user{
     display:-webkit-box;
@@ -393,9 +434,33 @@ h5 {
 #header-user #user-div{
     margin-right:10%;
 }#products-container-div{
-    color:white;
+    padding:2%;
+    overflow:auto;
+}
+.product{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    padding: 2%;
+} 
+.product-image-div {
+    margin: 2%;
+}
+
+.product-details {
+    margin: 2%;
+    color:#635757;
+}
+.product-details > div {
+    margin-bottom: 10%;
+}
+.product .btn-group{
+    width:100% ;
+}
+.product{
+    background-color: #F1F1F1;
 }#site-container{
-    background-color:#042517;
+    background-color:white;;
     width:100%;
 }
 /*# sourceMappingURL=main.css.map*/

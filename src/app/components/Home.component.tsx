@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {SectionCard,CarouselComponent,SlickCarousel,SearchHeaderBar,Notification,Cart,User} from './common';
+import Footer from './Footer.component'
 import { Link } from 'react-router-dom';
 import '../../styles/Home.css';
 const Men = require( '../../assets/images/men.jpg');
@@ -56,6 +57,9 @@ export default class Home extends React.Component{
                     <div className="">
                         <SlickCarousel/>
                     </div>
+                </div>
+                <div id="footer-section-main-div">
+                    <Footer/>
                 </div>                       
             </div>
         )

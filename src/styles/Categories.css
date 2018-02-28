@@ -1,3 +1,16 @@
 .categories-box{
-    
+    background-color: #F1F1F1;
+}
+
+.category-item{
+    padding:2%;
+    overflow:overlay;
+}
+
+.categories-box .card-section{
+    margin:10%;
+}
+.category-item h4{
+    text-align: center;
+    color:#635757;
 }

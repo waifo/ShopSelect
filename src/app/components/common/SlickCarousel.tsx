@@ -2,12 +2,12 @@ import * as React from 'react';
 import Slider from 'react-slick';
 import '../../../styles/SlickCarousel.css'
 
-const one = require('../../../assets/images/1.jpeg');
-const two = require('../../../assets/images/2.jpeg');
-const three = require('../../../assets/images/3.jpeg');
-const four = require('../../../assets/images/4.jpeg');
-const five = require('../../../assets/images/5.jpeg');
-const six = require('../../../assets/images/6.jpeg');
+const one = require('../../../assets/images/4.jpg');
+const two = require('../../../assets/images/6.jpg');
+const three = require('../../../assets/images/7.jpg');
+const four = require('../../../assets/images/22.jpg');
+const five = require('../../../assets/images/25.jpg');
+const six = require('../../../assets/images/27.jpg');
  
 class SlickCarousel extends React.Component {
   render () {
