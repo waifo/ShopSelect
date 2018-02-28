@@ -1,3 +1,25 @@
 #products-container-div{
-    color:white;
+    padding:2%;
+    overflow:auto;
+}
+.product{
+    display:flex;
+    padding: 2%;
+} 
+.product-image-div {
+    margin: 2%;
+}
+
+.product-details {
+    margin: 2%;
+    color:#635757;
+}
+.product-details > div {
+    margin-bottom: 10%;
+}
+.product .btn-group{
+    width:100% ;
+}
+.product{
+    background-color: #F1F1F1;
 }

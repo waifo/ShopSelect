@@ -1,0 +1,8 @@
+#home-searchbar-div .search-bar .input-group{
+    display:flex;
+}
+#home-searchbar-div .search-bar{
+    padding: 2%;
+    width: 50%;
+    margin: 0 auto;
+}

@@ -4,13 +4,14 @@ import {SectionCard} from './'
 import '../../../styles/Categories.css'
 const Categories = ({categories})=>{
     return(
-        <div>
+        <div className="category-item">
             {
-                categories.map(()=>{
+                categories.map((category,index)=>{
                     return (
-                        <div className="categories-box">
+                        <div className="categories-box col-xs-4">
                             <div className="">
-                                <Link to='/men/t-shirt'><SectionCard image=""/></Link>
+                                <Link key={index} to='/men/t-shirt'><SectionCard image={category['img-url']}/></Link>
+                                <h4>{category.type}</h4>
                             </div>
                         </div>
                         

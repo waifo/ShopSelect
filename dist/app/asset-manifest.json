@@ -1,6 +1,19 @@
 {
-  "images\\background.jpg": "images/638505da477d23226ed4e114ce6be518-background.jpg",
-  "images\\men.jpg": "images/2cab341d99797d3ecb77ea9ae585162c-men.jpg",
-  "images\\women.jpg": "images/fc1b497c20b38f59db3f515b6f065ba1-women.jpg",
+  "images\\1.jpg": "images/e0b6283bd35fe9d7d2740aa7a14dcd17-1.jpg",
+  "images\\14.jpg": "images/055ea0c84a1e278640c9f20ae1dd6bab-14.jpg",
+  "images\\2.jpg": "images/7dd6be5d0c5f964e00f524ff71452e59-2.jpg",
+  "images\\21.png": "images/a50371d79937cc68b5fb43b6f0b22d47-21.png",
+  "images\\22.jpg": "images/3b985e9881e3aca0574bbf43ad40ba03-22.jpg",
+  "images\\25.jpg": "images/0f884efe8adb8d62fc123d1cf87f29db-25.jpg",
+  "images\\27.jpg": "images/5158afdd80883b77566357cc8361bde0-27.jpg",
+  "images\\3.jpg": "images/70661d1b43b905a8e82bc987eca49e5e-3.jpg",
+  "images\\35.jpg": "images/7237cf5740cf784c69740d3a7ce3b38d-35.jpg",
+  "images\\4.jpg": "images/828269c91f458e7e7a37b8fe0be2704c-4.jpg",
+  "images\\5.jpg": "images/17e1c465c22072bbc0ca012c92be0f24-5.jpg",
+  "images\\6.jpg": "images/c2a9459fc92d9bd7a6ef95c7df1e6711-6.jpg",
+  "images\\7.jpg": "images/f1fdd59a1aa6cb04b418076879f232e5-7.jpg",
+  "images\\accessories.jpg": "images/494e28d4d7f122e778e27d12b7d4278b-accessories.jpg",
+  "images\\men.jpg": "images/aff91534e441785f6de1290fafa8aadd-men.jpg",
+  "images\\women.jpg": "images/7540c642a62be6b92fda45281b086a4b-women.jpg",
   "main.js": "bundle.js"
 }

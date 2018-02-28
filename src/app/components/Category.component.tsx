@@ -3,31 +3,49 @@ import {Categories} from './common'
 import Products from './Products.component'
 import { Switch, Route} from 'react-router-dom';
 import '../../styles/Category.css'
+const t_shirt=require('../../assets/images/men/t-shirt.jpg')
+const jeans=require('../../assets/images/men/jeans.jpg')
+const casual=require('../../assets/images/men/casual.jpg')
+const formal=require('../../assets/images/men/formal.jpg')
+const party_wear=require('../../assets/images/men/party-wear.jpg')
+const accessories=require('../../assets/images/men/accessories.jpg')
 
 let categories=[
     {
         "t-shirt":[],
-        "count":10
+        "count":10,
+        "img-url":t_shirt,
+        "type":"T-Shirt"
     },
     {
         "jeans":[],
-        "count":8
+        "count":8,
+        "img-url":jeans,
+        "type":"Jeans"
     },
     {
         "casual":[],
-        "count":8
+        "count":8,
+        "img-url":casual,
+        "type":"Casual"
     },
     {
         "formal":[],
-        "count":10
+        "count":10,
+        "img-url":formal,
+        "type":"Formal"
     },
     {
         "party-wear":[],
-        "count":5
+        "count":5,
+        "img-url":party_wear,
+        "type":"Party Wear"
     },
     {
         "accessories":[],
-        "count":10
+        "count":10,
+        "img-url":accessories,
+        "type":"Accessories"
     }
     
 ]

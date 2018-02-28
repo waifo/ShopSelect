@@ -7,7 +7,7 @@ var DIST_DIR = path.resolve(__dirname, "dist");
 var SRC_DIR = path.resolve(__dirname, "src");
 
 var config = {
-    entry: SRC_DIR + "/app/App.tsx",
+    entry: SRC_DIR + "/index.tsx",
     output: {
         path: DIST_DIR + "/app",
         filename: "bundle.js",

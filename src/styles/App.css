@@ -1,6 +1,4 @@
 #site-container{
-    background-color:#2f3640;
+    background-color:white;;
     width:100%;
-    height:-webkit-fill-available;
-    background: url("../assets/images/background.jpg") no-repeat fixed center;
 }
