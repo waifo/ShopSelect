@@ -266,3 +266,16 @@ self.addEventListener('fetch', function(event) {
 
 
 
+ch(event.request);
+        })
+      );
+    }
+  }
+});
+
+
+
+
+
+
+

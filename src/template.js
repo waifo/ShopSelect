@@ -11,8 +11,8 @@ export default ({ body,title }) => {
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" defer>
         <link rel="manifest" href="./manifest.json">
         <link rel="stylesheet" href="/assets/css/main.css"></link>
-        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="/assets/css/slick.min.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/slick-theme.min.css" />
         <script src='./assets/bundle/bundle.js' defer></script>
         <title>${title}</title>
     </head>
