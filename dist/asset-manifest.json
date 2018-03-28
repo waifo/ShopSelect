@@ -15,7 +15,8 @@
   "assets\\images\\accessories.jpg": "assets/images/494e28d4d7f122e778e27d12b7d4278b-accessories.jpg",
   "assets\\images\\men.jpg": "assets/images/aff91534e441785f6de1290fafa8aadd-men.jpg",
   "assets\\images\\women.jpg": "assets/images/7540c642a62be6b92fda45281b086a4b-women.jpg",
-  "main.js": "server.js"
-}main.css",
-  "main.js": "./assets/bundle/bundle.js"
+  "main.css": "assets/css/main.css",
+  "main.css.map": "assets/css/main.css.map",
+  "main.js": "./assets/bundle/bundle.js",
+  "main.js.map": "./assets/bundle/bundle.js.map"
 }

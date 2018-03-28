@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/assets/images/055ea0c84a1e278640c9f20ae1dd6bab-14.jpg","055ea0c84a1e278640c9f20ae1dd6bab"],["/assets/images/0f884efe8adb8d62fc123d1cf87f29db-25.jpg","0f884efe8adb8d62fc123d1cf87f29db"],["/assets/images/17e1c465c22072bbc0ca012c92be0f24-5.jpg","17e1c465c22072bbc0ca012c92be0f24"],["/assets/images/3b985e9881e3aca0574bbf43ad40ba03-22.jpg","3b985e9881e3aca0574bbf43ad40ba03"],["/assets/images/494e28d4d7f122e778e27d12b7d4278b-accessories.jpg","494e28d4d7f122e778e27d12b7d4278b"],["/assets/images/4ddc472c30e7c23cbda925529026eed8-4.jpg","4ddc472c30e7c23cbda925529026eed8"],["/assets/images/5158afdd80883b77566357cc8361bde0-27.jpg","5158afdd80883b77566357cc8361bde0"],["/assets/images/56573ed248ed9ae195cd09787c0b8ba2-1.jpg","56573ed248ed9ae195cd09787c0b8ba2"],["/assets/images/70661d1b43b905a8e82bc987eca49e5e-3.jpg","70661d1b43b905a8e82bc987eca49e5e"],["/assets/images/7237cf5740cf784c69740d3a7ce3b38d-35.jpg","7237cf5740cf784c69740d3a7ce3b38d"],["/assets/images/7540c642a62be6b92fda45281b086a4b-women.jpg","7540c642a62be6b92fda45281b086a4b"],["/assets/images/7dd6be5d0c5f964e00f524ff71452e59-2.jpg","7dd6be5d0c5f964e00f524ff71452e59"],["/assets/images/828269c91f458e7e7a37b8fe0be2704c-4.jpg","828269c91f458e7e7a37b8fe0be2704c"],["/assets/images/a50371d79937cc68b5fb43b6f0b22d47-21.png","a50371d79937cc68b5fb43b6f0b22d47"],["/assets/images/aff91534e441785f6de1290fafa8aadd-men.jpg","aff91534e441785f6de1290fafa8aadd"],["/assets/images/c2a9459fc92d9bd7a6ef95c7df1e6711-6.jpg","c2a9459fc92d9bd7a6ef95c7df1e6711"],["/assets/images/e0b6283bd35fe9d7d2740aa7a14dcd17-1.jpg","e0b6283bd35fe9d7d2740aa7a14dcd17"],["/assets/images/f1fdd59a1aa6cb04b418076879f232e5-7.jpg","f1fdd59a1aa6cb04b418076879f232e5"]];
+var precacheConfig = [["/assets/bundle/bundle.js","16aa18c6642322dbeebe8b6144698c60"],["/assets/css/main.css","24e81dfcfd76de6d42bb80834470b41c"],["/assets/images/055ea0c84a1e278640c9f20ae1dd6bab-14.jpg","055ea0c84a1e278640c9f20ae1dd6bab"],["/assets/images/0f884efe8adb8d62fc123d1cf87f29db-25.jpg","0f884efe8adb8d62fc123d1cf87f29db"],["/assets/images/17e1c465c22072bbc0ca012c92be0f24-5.jpg","17e1c465c22072bbc0ca012c92be0f24"],["/assets/images/3b985e9881e3aca0574bbf43ad40ba03-22.jpg","3b985e9881e3aca0574bbf43ad40ba03"],["/assets/images/494e28d4d7f122e778e27d12b7d4278b-accessories.jpg","494e28d4d7f122e778e27d12b7d4278b"],["/assets/images/4ddc472c30e7c23cbda925529026eed8-4.jpg","4ddc472c30e7c23cbda925529026eed8"],["/assets/images/5158afdd80883b77566357cc8361bde0-27.jpg","5158afdd80883b77566357cc8361bde0"],["/assets/images/56573ed248ed9ae195cd09787c0b8ba2-1.jpg","56573ed248ed9ae195cd09787c0b8ba2"],["/assets/images/70661d1b43b905a8e82bc987eca49e5e-3.jpg","70661d1b43b905a8e82bc987eca49e5e"],["/assets/images/7237cf5740cf784c69740d3a7ce3b38d-35.jpg","7237cf5740cf784c69740d3a7ce3b38d"],["/assets/images/7540c642a62be6b92fda45281b086a4b-women.jpg","7540c642a62be6b92fda45281b086a4b"],["/assets/images/7dd6be5d0c5f964e00f524ff71452e59-2.jpg","7dd6be5d0c5f964e00f524ff71452e59"],["/assets/images/828269c91f458e7e7a37b8fe0be2704c-4.jpg","828269c91f458e7e7a37b8fe0be2704c"],["/assets/images/a50371d79937cc68b5fb43b6f0b22d47-21.png","a50371d79937cc68b5fb43b6f0b22d47"],["/assets/images/aff91534e441785f6de1290fafa8aadd-men.jpg","aff91534e441785f6de1290fafa8aadd"],["/assets/images/c2a9459fc92d9bd7a6ef95c7df1e6711-6.jpg","c2a9459fc92d9bd7a6ef95c7df1e6711"],["/assets/images/e0b6283bd35fe9d7d2740aa7a14dcd17-1.jpg","e0b6283bd35fe9d7d2740aa7a14dcd17"],["/assets/images/f1fdd59a1aa6cb04b418076879f232e5-7.jpg","f1fdd59a1aa6cb04b418076879f232e5"]];
 var cacheName = 'sw-precache-v3-my-project-name-' + (self.registration ? self.registration.scope : '');
 
 
@@ -254,19 +254,6 @@ self.addEventListener('fetch', function(event) {
           // prevented the cached response from being valid.
           console.warn('Couldn\'t serve response for "%s" from cache: %O', event.request.url, e);
           return fetch(event.request);
-        })
-      );
-    }
-  }
-});
-
-
-
-
-
-
-
-ch(event.request);
         })
       );
     }
